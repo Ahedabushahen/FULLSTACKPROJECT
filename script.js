@@ -1,6 +1,6 @@
-// A simple JavaScript action: say hello when the button is clicked
 function sayHello() {
-    const message = "Hello from Ahed Abu Shahen!";
+    const userName = "Ahed";
+    const message = `Hello ${userName}, welcome to the Fullstack Project!`;
     document.getElementById("helloMsg").textContent = message;
   }
   
